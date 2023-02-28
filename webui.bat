@@ -1,6 +1,5 @@
 @echo off
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
-cd stable-diffusion-webui
+
 if not defined PYTHON (set PYTHON=python)
 if not defined VENV_DIR (set "VENV_DIR=%~dp0%venv")
 
